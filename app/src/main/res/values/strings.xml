@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">LayoutsGrupalFinal</string>
+    <string name="Con">Conectar</string>
+    <string name="Correo">Correo</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Iniciar">Iniciar Sesion</string>
+    <string name="Olv">¿Olvidaste tu contraseña?</string>
 </resources>
