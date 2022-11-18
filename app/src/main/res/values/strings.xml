@@ -22,7 +22,7 @@
         <item>Manager</item>
         <item>Currito</item>
     </string-array>
-    <string name="Productos">Productos</string>
+    <string name="Productos">Producto</string>
     <string name="Subtotal">Subtotal</string>
     <string name="JabonDeManos">Jabón de manos x1</string>
     <string name="Pantalla01">Pantalla 1</string>

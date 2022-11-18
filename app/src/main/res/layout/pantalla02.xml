@@ -18,7 +18,7 @@
         tools:layout_editor_absoluteY="1dp">
 
         <TableRow
-            android:layout_width="match_parent"
+            android:layout_width="355dp"
             android:layout_height="match_parent"
             android:background="#009688"
             android:padding="2dp">
