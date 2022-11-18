@@ -1,6 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/Nombre" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextTextPersonName3"
+            android:layout_alignStart="@+id/editTextTextPersonName3"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="17dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/Apellidos" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextTextPersonName4"
+            android:layout_alignStart="@+id/editTextTextPersonName4"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="21dp"
+            android:text="@string/EstadoCivil" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextTextPersonName4"
+            android:layout_alignStart="@+id/editTextTextPersonName4"
+            android:layout_marginStart="165dp"
+            android:layout_marginTop="22dp"
+            android:text="@string/Cargo" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_alignStart="@+id/textView"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="1dp"
+            android:entries="@array/EstadoCivilValues" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="-162dp"
+            android:entries="@array/CargoValues" />
+
+    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

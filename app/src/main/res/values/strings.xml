@@ -5,4 +5,20 @@
     <string name="Contraseña">Contraseña</string>
     <string name="Iniciar">Iniciar Sesion</string>
     <string name="Olv">¿Olvidaste tu contraseña?</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Apellidos">Apellidos</string>
+    <string name="EstadoCivil">Estado Civil</string>
+    <string name="Cargo">Cargo</string>
+    <string-array name="EstadoCivilValues">
+        <item>Soltero</item>
+        <item>Casado</item>
+        <item>Divorciado</item>
+        <item>Viudo</item>
+    </string-array>
+    <string-array name="CargoValues">
+        <item>Programador</item>
+        <item>Director</item>
+        <item>Manager</item>
+        <item>Currito</item>
+    </string-array>
 </resources>
