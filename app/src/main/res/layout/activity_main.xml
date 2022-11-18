@@ -16,26 +16,47 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:textAlignment="center"
-
+            android:textStyle="bold"
             android:gravity="center"
             android:text="@string/NavegacionEntrePantallas" />
 
-        <Button
-            android:id="@+id/Boton1"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+            android:layout_height="match_parent">
 
-        <Button
-            android:id="@+id/Boton2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+            <Button
+                android:id="@+id/Boton1"
+                android:layout_width="283dp"
+                android:layout_height="wrap_content"
 
-        <Button
-            android:id="@+id/Boton3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+                android:layout_marginLeft="60dp"
+                android:text="@string/Pantalla01" />
+
+            <Button
+                android:id="@+id/Boton2"
+                android:layout_width="283dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Boton1"
+                android:layout_alignStart="@+id/Boton1"
+                android:layout_alignEnd="@+id/Boton1"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="0dp"
+                android:text="@string/Pantalla02" />
+
+            <Button
+                android:id="@+id/Boton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Boton2"
+                android:layout_alignStart="@+id/Boton2"
+                android:layout_alignEnd="@+id/Boton2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="0dp"
+                android:text="@string/Pantalla03" />
+
+        </RelativeLayout>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

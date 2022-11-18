@@ -16,12 +16,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         btnNavegar1=findViewById(R.id.Boton1)
+        btnNavegar2=findViewById(R.id.Boton2)
         btnNavegar3 = findViewById(R.id.Boton3)
         //val intent = Intent(this@MainActivity, Pantalla03::class.java)
 
 
         btnNavegar1.setOnClickListener(){
             val intent = Intent(this@MainActivity, Pantalla01::class.java)
+            startActivity(intent)
+        }
+        btnNavegar2.setOnClickListener(){
+            val intent = Intent(this@MainActivity, Pantalla02::class.java)
             startActivity(intent)
         }
 

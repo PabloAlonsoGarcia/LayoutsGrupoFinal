@@ -1,5 +1,5 @@
 <resources>
-    <string name="NavegacionEntrePantallas">Navegación entre pantallas</string>
+    <string name="NavegacionEntrePantallas">NAVEGACIÓN ENTRE PANTALLAS</string>
     <string name="app_name">LayoutsGrupalFinal</string>
     <string name="Con">Conectar</string>
     <string name="Correo">Correo</string>
@@ -24,5 +24,8 @@
     </string-array>
     <string name="Productos">Productos</string>
     <string name="Subtotal">Subtotal</string>
-    <string name="JabonDeManos">Jabón de manos</string>
+    <string name="JabonDeManos">Jabón de manos x1</string>
+    <string name="Pantalla01">Pantalla 1</string>
+    <string name="Pantalla02">Pantalla 2</string>
+    <string name="Pantalla03">Pantalla 3</string>
 </resources>
