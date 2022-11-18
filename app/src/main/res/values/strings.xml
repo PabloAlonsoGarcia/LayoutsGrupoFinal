@@ -22,4 +22,7 @@
         <item>Manager</item>
         <item>Currito</item>
     </string-array>
+    <string name="Productos">Productos</string>
+    <string name="Subtotal">Subtotal</string>
+    <string name="JabonDeManos">Jabón de manos</string>
 </resources>

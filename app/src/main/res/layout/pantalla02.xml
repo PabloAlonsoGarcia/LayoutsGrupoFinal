@@ -29,7 +29,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:layout_marginEnd="250dp"
-                android:text="@string/producto"
+                android:text="@string/Productos"
                 android:textColor="#FFFFFF"
                 tools:ignore="TextContrastCheck" />
 
@@ -37,7 +37,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/subtotal"
+                android:text="@string/Subtotal"
                 android:textColor="#FFFFFF" />
         </TableRow>
 
@@ -52,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:padding="2dp"
-                android:text="@string/jab_n_de_manos_x1" />
+                android:text="@string/JabonDeManos" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -139,7 +139,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="2dp"
-                android:text="@string/subtotal"
+                android:text="@string/Subtotal"
                 android:textColor="#009688" />
 
             <TextView
