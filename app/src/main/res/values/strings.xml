@@ -1,4 +1,5 @@
 <resources>
+    <string name="NavegacionEntrePantallas">Navegación entre pantallas</string>
     <string name="app_name">LayoutsGrupalFinal</string>
     <string name="Con">Conectar</string>
     <string name="Correo">Correo</string>
