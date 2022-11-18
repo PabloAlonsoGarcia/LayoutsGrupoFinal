@@ -56,6 +56,18 @@
                 android:layout_marginEnd="0dp"
                 android:text="@string/Pantalla03" />
 
+            <Button
+                android:id="@+id/Boton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Boton3"
+                android:layout_alignStart="@+id/Boton3"
+                android:layout_alignEnd="@+id/Boton3"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="0dp"
+                android:text="@string/Pantalla04" />
+
         </RelativeLayout>
 
     </LinearLayout>
